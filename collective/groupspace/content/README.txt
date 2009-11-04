@@ -53,14 +53,14 @@ And we ensure that we get the friendly logged-in message:
 
 
 -*- extra stuff goes here -*-
-The GGroupSpace content type
+The GroupSpace content type
 ===============================
 
-In this section we are tesing the GGroupSpace content type by performing
-basic operations like adding, updadating and deleting GGroupSpace content
+In this section we are tesing the GroupSpace content type by performing
+basic operations like adding, updadating and deleting GroupSpace content
 items.
 
-Adding a new GGroupSpace content item
+Adding a new GroupSpace content item
 --------------------------------
 
 We use the 'Add new' menu to add a new content item.
@@ -68,54 +68,54 @@ We use the 'Add new' menu to add a new content item.
     >>> browser.getLink('Add new').click()
 
 Then we select the type of item we want to add. In this case we select
-'GGroupSpace' and click the 'Add' button to get to the add form.
+'GroupSpace' and click the 'Add' button to get to the add form.
 
-    >>> browser.getControl('GGroupSpace').click()
+    >>> browser.getControl('GroupSpace').click()
     >>> browser.getControl(name='form.button.Add').click()
-    >>> 'GGroupSpace' in browser.contents
+    >>> 'GroupSpace' in browser.contents
     True
 
 Now we fill the form and submit it.
 
-    >>> browser.getControl(name='title').value = 'GGroupSpace Sample'
+    >>> browser.getControl(name='title').value = 'GroupSpace Sample'
     >>> browser.getControl('Save').click()
     >>> 'Changes saved' in browser.contents
     True
 
-And we are done! We added a new 'GGroupSpace' content item to the portal.
+And we are done! We added a new 'GroupSpace' content item to the portal.
 
-Updating an existing GGroupSpace content item
+Updating an existing GroupSpace content item
 ---------------------------------------
 
 Let's click on the 'edit' tab and update the object attribute values.
 
     >>> browser.getLink('Edit').click()
-    >>> browser.getControl(name='title').value = 'New GGroupSpace Sample'
+    >>> browser.getControl(name='title').value = 'New GroupSpace Sample'
     >>> browser.getControl('Save').click()
 
 We check that the changes were applied.
 
     >>> 'Changes saved' in browser.contents
     True
-    >>> 'New GGroupSpace Sample' in browser.contents
+    >>> 'New GroupSpace Sample' in browser.contents
     True
 
-Removing a/an GGroupSpace content item
---------------------------------
+Removing a/an GroupSpace content item
+-------------------------------------
 
-If we go to the home page, we can see a tab with the 'New GGroupSpace
+If we go to the home page, we can see a tab with the 'New GroupSpace
 Sample' title in the global navigation tabs.
 
     >>> browser.open(portal_url)
-    >>> 'New GGroupSpace Sample' in browser.contents
+    >>> 'New GroupSpace Sample' in browser.contents
     True
 
-Now we are going to delete the 'New GGroupSpace Sample' object. First we
-go to the contents tab and select the 'New GGroupSpace Sample' for
+Now we are going to delete the 'New GroupSpace Sample' object. First we
+go to the contents tab and select the 'New GroupSpace Sample' for
 deletion.
 
     >>> browser.getLink('Contents').click()
-    >>> browser.getControl('New GGroupSpace Sample').click()
+    >>> browser.getControl('New GroupSpace Sample').click()
 
 We click on the 'Delete' button.
 
@@ -123,17 +123,17 @@ We click on the 'Delete' button.
     >>> 'Item(s) deleted' in browser.contents
     True
 
-So, if we go back to the home page, there is no longer a 'New GGroupSpace
+So, if we go back to the home page, there is no longer a 'New GroupSpace
 Sample' tab.
 
     >>> browser.open(portal_url)
-    >>> 'New GGroupSpace Sample' in browser.contents
+    >>> 'New GroupSpace Sample' in browser.contents
     False
 
-Adding a new GGroupSpace content item as contributor
-------------------------------------------------
+Adding a new GroupSpace content item as contributor
+---------------------------------------------------
 
-Not only site managers are allowed to add GGroupSpace content items, but
+Not only site managers are allowed to add GroupSpace content items, but
 also site contributors.
 
 Let's logout and then login as 'contributor', a portal member that has the
@@ -150,21 +150,21 @@ We use the 'Add new' menu to add a new content item.
 
     >>> browser.getLink('Add new').click()
 
-We select 'GGroupSpace' and click the 'Add' button to get to the add form.
+We select 'GroupSpace' and click the 'Add' button to get to the add form.
 
-    >>> browser.getControl('GGroupSpace').click()
+    >>> browser.getControl('GroupSpace').click()
     >>> browser.getControl(name='form.button.Add').click()
-    >>> 'GGroupSpace' in browser.contents
+    >>> 'GroupSpace' in browser.contents
     True
 
 Now we fill the form and submit it.
 
-    >>> browser.getControl(name='title').value = 'GGroupSpace Sample'
+    >>> browser.getControl(name='title').value = 'GroupSpace Sample'
     >>> browser.getControl('Save').click()
     >>> 'Changes saved' in browser.contents
     True
 
-Done! We added a new GGroupSpace content item logged in as contributor.
+Done! We added a new GroupSpace content item logged in as contributor.
 
 Finally, let's login back as manager.
 

@@ -35,8 +35,8 @@ def setup_product():
     # This can of course use <include /> to include other packages.
 
     fiveconfigure.debug_mode = True
-    import collective.groupspace
-    zcml.load_config('configure.zcml', collective.groupspace)
+    import collective.groupspace.content
+    zcml.load_config('configure.zcml', collective.groupspace.content)
     fiveconfigure.debug_mode = False
 
     # We need to tell the testing framework that these products

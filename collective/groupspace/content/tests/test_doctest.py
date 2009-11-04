@@ -6,7 +6,7 @@ from zope.component import testing, eventtesting
 
 from Testing import ZopeTestCase as ztc
 
-from collective.groupspace.tests import base
+from collective.groupspace.content.tests import base
 
 def test_suite():
     return unittest.TestSuite([
