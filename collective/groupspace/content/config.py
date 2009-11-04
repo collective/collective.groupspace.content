@@ -1,9 +1,9 @@
 """Common configuration constants
 """
 
-PROJECTNAME = 'collective.groupspace'
+PROJECTNAME = 'collective.groupspace.content'
 
 ADD_PERMISSIONS = {
     # -*- extra stuff goes here -*-
-    'GGroupSpace': 'collective.groupspace: Add GGroupSpace',
+    'GroupSpace': 'collective.groupspace: Add GroupSpace',
 }
