@@ -5,5 +5,5 @@ PROJECTNAME = 'collective.groupspace.content'
 
 ADD_PERMISSIONS = {
     # -*- extra stuff goes here -*-
-    'GroupSpace': 'collective.groupspace: Add GroupSpace',
+    'GroupSpace': 'collective.groupspace.content: Add GroupSpace',
 }

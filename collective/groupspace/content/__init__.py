@@ -3,7 +3,7 @@ Main product initializer of collective.groupspace.content
 """
 
 from zope.i18nmessageid import MessageFactory
-from collective.groupspace import config
+from collective.groupspace.content import config
 
 from Products.Archetypes import atapi
 from Products.CMFCore import utils
