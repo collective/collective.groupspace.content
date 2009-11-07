@@ -1,17 +1,16 @@
-.. contents::
+Introduction
+============
 
-.. Note!
-   -----
-   Update the following URLs to point to your:
+Implements a folderish content type that implements the ILocalGroupSpacePASRoles
+interface, This interface allows managemment of dynamic roles for users and groups
+in a context, and is implemented in collective.groupspace.roles.
 
-   - code repository
-   - bug tracker
-   - questions/comments feedback mail
-   (do not set a real mail, to avoid spams)
+This package is part of the collective.groupspace suite, whose components should
+be installed as needed:
 
-   Or remove it if not used.
+* collective.groupspace.workflow
 
-- Code repository: http://svn.somewhere.com/...
-- Questions and comments to somemailing_list
-- Report bugs at http://bug.somewhere.com/..
+* collective.groupspace.roles
+
+* collective.groupspace.mail
 
