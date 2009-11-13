@@ -20,7 +20,7 @@ tests_require=['zope.testing']
 
 setup(name='collective.groupspace.content',
     version=version,
-    description="The groupspace content type",
+    description="Plone collective.groupspace content type for privately working in groups",
     long_description=long_description,
     classifiers=[
       "Development Status :: 4 - Beta",
