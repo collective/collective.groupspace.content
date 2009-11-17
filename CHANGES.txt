@@ -4,7 +4,7 @@ Next release
 Features
 --------
 
-- Adding a skin with the groupspace icon used by the GroupSpace content type
+- Changing GroupSpace logo to group.gif
 
 Internal
 --------
