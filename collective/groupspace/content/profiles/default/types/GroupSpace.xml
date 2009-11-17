@@ -6,7 +6,7 @@
   <property name="description"
     i18n:translate="">GroupSpace content type</property>
   <property name="content_meta_type">GroupSpace</property>
-  <property name="content_icon">folder_icon.gif</property>
+  <property name="content_icon">group_space.gif</property>
   <property name="product">collective.groupspace.content</property>
   <property name="factory">addGroupSpace</property>
   <property name="immediate_view">atct_edit</property>
