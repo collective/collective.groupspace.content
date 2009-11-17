@@ -5,7 +5,7 @@
          
  <object name="groupspace"
          meta_type="Filesystem Directory View"
-         directory="Products.GrufSpaces:skins/groupspace"/>
+         directory="collective.groupspace.content:skins/groupspace"/>
 
  <skin-path name="*">
 
