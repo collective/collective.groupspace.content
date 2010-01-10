@@ -9,7 +9,7 @@ Features
 Internal
 --------
 
-- svn Set typesLinkToFolderContentsInFC for GroupSpace to support FCKEditor
+- Set typesLinkToFolderContentsInFC for GroupSpace to support FCKEditor
 
 - Unit test coverage increased
 
