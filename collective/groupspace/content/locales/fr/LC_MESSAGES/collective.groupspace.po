@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Collective Groupspace\n"
+"POT-Creation-Date: 2010-08-25 08:29+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Quadra Informatique <plone@quadra-informatique.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: fr\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: collective.groupspace.content/collective/groupspace/content/profiles/default/GroupSpace.xml:5
+msgid "GroupSpace"
+msgstr "Groupe de travail"
+
+#: collective.groupspace.content/collective/groupspace/content/profiles/default/GroupSpace.xml:7
+msgid "GroupSpace content type"
+msgstr "Un espace de groupe de travail"
+
