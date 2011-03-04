@@ -1,7 +1,7 @@
 """
 Main product initializer of collective.groupspace.content
 """
-
+import permissions
 from zope.i18nmessageid import MessageFactory
 from collective.groupspace.content import config
 
