@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '1.0.1'
+version = '1.0.2'
 
 long_description = (
     read('README.txt')
@@ -23,7 +23,7 @@ setup(name='collective.groupspace.content',
     description="Plone collective.groupspace content type for privately working in groups",
     long_description=long_description,
     classifiers=[
-      "Development Status :: 4 - Beta",
+      "Development Status :: 5 - Production/Stable",
       "Environment :: Web Environment",
       "Framework :: Plone",
       "Framework :: Zope2",
@@ -38,7 +38,7 @@ setup(name='collective.groupspace.content',
     keywords='groupspace, roles, pas, borg.localrole, grufspaces',
     author='Maik Roeder',
     author_email='roeder@berg.net',
-    url='http://svn.plone.org/svn/collective/collective.groupspace.content',
+    url='http://plone.org/products/collective.groupspace.content',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['collective', 'collective.groupspace'],
