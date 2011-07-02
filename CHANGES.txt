@@ -1,3 +1,18 @@
+1.0.2 (2011-07-02)
+==================
+
+Features
+--------
+
+- Added FR translations for content type GroupSpace (title & description) (jstegle)
+
+Internal
+--------
+
+- add a zope2 permission because real install failed in plone3.3.5 (yboussard)
+
+- fix text
+
 1.0.1 (2010-01-10)
 ==================
 
