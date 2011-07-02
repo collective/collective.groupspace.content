@@ -1,4 +1,0 @@
-trunk
------
-
-[yboussard] - add a permission 'collective.groupspace.content: Add GroupSpace' in permissions.py
